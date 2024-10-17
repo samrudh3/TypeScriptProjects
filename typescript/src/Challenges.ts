@@ -11,3 +11,18 @@ console.log(isAdult)
 // age = "Twenty"
 
 console.log(cityName, age)
+
+const books = ['1984', 'alex', 'war1965']
+
+let foundBook : string | undefined
+
+for( let book of books)
+{
+  if(book === '1984')
+  {
+    foundBook = book
+    console.log("Found Book " + foundBook.toUpperCase());
+    break;
+  }
+}
+console.log("Length " + foundBook?.length)
