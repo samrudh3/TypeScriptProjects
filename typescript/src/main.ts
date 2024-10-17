@@ -2,9 +2,10 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import './Test.ts'
-import "./Challenges.ts"
-import "./Functions.ts"
+// import './Test.ts'
+// import "./Challenges.ts"
+// import "./Functions.ts"
+import "./AliasNInterface.ts"
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

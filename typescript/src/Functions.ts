@@ -76,3 +76,5 @@ const newStudent = {
 }
 createStudent(newStudent)
 // createStudent({id : 1, name : 'bob', email : "xyz@emailcom"})//Inline wont Allow but Object will be Allowed
+
+
